@@ -1,0 +1,51 @@
+/* 全局样式表 */
+html, body, #app{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+  overflow: auto;
+  min-width: 1366px;
+}
+
+a{text-decoration: none;color:#fff;}
+a:hover, a:visited, a:link, a:active {
+   color:#fff;
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+}
+
+.el-card {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table, .el-pagination {
+  margin-top: 15px;
+}
+
+/* .el-cascader-menu {
+  height: 400px; 
+  overflow: scroll
+} */
+
+/* 隐藏横向滚动条 */
+.el-scrollbar__wrap{
+  overflow-x: hidden;
+}
+
+.el-select-dropdown__list {
+  list-style: none;
+  padding-bottom: 15px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.el-steps {
+  margin: 15px 0 25px 0;
+}
+
+.ql-editor{
+    min-height: 300px;
+}
